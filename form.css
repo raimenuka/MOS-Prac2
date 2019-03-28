@@ -1,0 +1,118 @@
+*{
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:5px;
+}
+body {
+	background-color:#ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+	background-color:#16aca0;
+	color:white;
+	text-align: center;
+	padding: 20px;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	font-style:oblique;
+}
+
+.register{
+	background:#ff7c00;
+	width: 600px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:130px;
+	margin-top: 0px;
+	color: white;
+	font-size:18;
+	padding:20px;
+	border-radius: 10px;
+}
+#register{
+	margin-left: 50px;
+	
+}
+
+label{
+	color: white;
+	font-size: 18px;
+	font-style: normal;
+    
+}
+
+#name{
+    width:300px;
+input[type=text]
+	border:2px solid #aaa;
+	border-radius:3px;
+	outline:none;
+	padding:7px;
+	box-sizing:border-box;
+	transition:ease-in-out;
+}
+input[type=text]:focus{
+	border-color:#b80505;
+	background-color: #ffffff;
+	box-shadow:0px 0px 1px black;
+
+}
+#email{
+	width:300px;
+input[type=text]
+	border-radius:3px;
+	outline:none;
+	padding:7px;
+}
+
+#tel{
+    width:200px;
+input[type=telnumber]
+	border:2px solid #aaa;
+	border-radius:3px;
+	outline:none;
+	padding:7px;
+	box-sizing:border-box;
+	transition:ease-in-out;
+}
+input[type=telnumber]:focus{
+	border-color:#b80505;
+	background-color: #ffffff;
+	box-shadow:0px 0px 1px black;
+
+}
+#Day{
+	width: 40px;
+}
+#Year{
+	width: 60px;
+}
+#number{
+input[type=number]
+    width:auto;
+    border:2px solid #aaa;
+    border-radius:3px;
+    outline:none;
+    padding:7px;
+    box-sizing:border-box;
+    transition:ease-in-out;
+ } 
+input[type=number]:focus{
+    border-color:#b80505;
+    background-color: #ffffff;
+    box-shadow:0px 0px 1px black;
+}
+#submit{
+	width:100px;
+	background-color: grey;
+	outline:thick;
+	outline-color: red;
+	padding: 10px;
+	font-style: inherit;
+	font-weight: 600;
+	font-style: 16px;
+}
